@@ -1,6 +1,8 @@
 Multi-container docker app.
 
-The application implements the diagram below.
+The application implements the diagram below:
+
+![alt text](https://github.com/gusrodriguez/docker-multi-container/blob/master/multi-container.png?raw=true)
 
 - Once a request occurs, nginx will decide based on the route, if it should serve the React app or the api content depending on the route.
 - The React app will consume data fro the Express Api.
