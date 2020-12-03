@@ -10,3 +10,6 @@ The application implements the diagram below:
 - The Redis server will comunicate with a worker, that emulates a high workload of computing.
 
 This is an intentional overkill architecture. The purpose of the project is not related to the   the optimization of the architecture neither the React application per se, but to be able to build a multi-container application and raise it up with docker-compose in a complex scenario.
+
+Navigate locally at:
+http://localhost:3050/
