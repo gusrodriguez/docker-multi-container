@@ -1,4 +1,10 @@
-Multi-container docker app.
+# Multi-container docker app.
+
+## What's this?
+It's an implementation of a multi-container application achitecture, by using docker-compose.
+
+## What could it be useful for?
+If you want a take a look at how to configure a docker-compose file with several docker containers.
 
 The application implements the diagram below:
 
@@ -11,5 +17,6 @@ The application implements the diagram below:
 
 This is an intentional overkill architecture. The purpose of the project is not related to the optimization of the architecture neither the React application per se, but to be able to build a multi-container application and raise it up with docker-compose in a complex scenario.
 
+### Usage
 Navigate locally at:
 http://localhost:3050/
